@@ -24,10 +24,10 @@ console.log("Bài 5: foodList =", foodList, "veggies =", veggies, "fruits =", fr
 // Bài 6
 let students = [{name: "An", score: 8}, {name: "Bình", score: 7}];
 students.push(
-  {name: "Cường", score: 9},
-  {name: "Dung", score: 6},
+  {name: "sáu", score: 9},
+  {name: "Duong", score: 6},
   {name: "Hà", score: 10},
-  {name: "Linh", score: 5},
+  {name: "ba", score: 5},
   {name: "Minh", score: 8}
 );
 students.pop();
