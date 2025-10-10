@@ -24,10 +24,10 @@ console.log("Bài 5: foodList =", foodList, "veggies =", veggies, "fruits =", fr
 // Bài 6
 let students = [{name: "An", score: 8}, {name: "Bình", score: 7}];
 students.push(
-  {name: "sáu", score: 9},
+  {name: "Sáu", score: 9},
   {name: "Duong", score: 6},
   {name: "Hà", score: 10},
-  {name: "ba", score: 5},
+  {name: "Hùng", score: 5},
   {name: "Minh", score: 8}
 );
 students.pop();
@@ -58,17 +58,3 @@ console.log("Bài 10: found =", foundUser, "index =", indexUser);
 let expenses = [50000, 120000, 80000];
 let totalExpense = expenses.reduce((sum, x) => sum + x, 0);
 console.log("Bài 11: Tổng =", totalExpense);
-// Bài 12
-let temps = [25, 18, 30, 22];
-temps.sort((a, b) => a - b);
-console.log("Bài 12:", temps);
-// Bài 13
-let stocks = [true, false, true];
-let someOutOfStock = stocks.some(s => s === false);
-let allInStock = stocks.every(s => s === true);
-console.log("Bài 13: some =", someOutOfStock, "every =", allInStock);
-// Bài 14
-let days = ["Thứ 2", "Thứ 3", "Thứ 4"];
-let reversedDays = days.reverse();
-let joinedDays = reversedDays.join("-");
-console.log("Bài 14:", joinedDays);
